@@ -29,4 +29,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
+        args: >
+          -Dsonar.organization=nantonov
+          -Dsonar.projectKey=nantonov_3TierArchitectureSolutionTemplate
+          -Dsonar.verbose=true
         projectBaseDir: src/3TierArchitecture
