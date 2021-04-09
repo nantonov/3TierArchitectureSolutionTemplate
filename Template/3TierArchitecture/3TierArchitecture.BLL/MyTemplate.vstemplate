@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>3TierArchitecture.BLL</Name>
+    <Description>Business Logic Layer</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>3TierArchitecture.BLL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="3TierArchitecture.BLL.csproj" File="3TierArchitecture.BLL.csproj" ReplaceParameters="true">
+      <Folder Name="AutoMapper" TargetFolderName="AutoMapper">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AutomapperProfile.cs">AutomapperProfile.cs</ProjectItem>
+      </Folder>
+      <Folder Name="DI" TargetFolderName="DI">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <Folder Name="Models" TargetFolderName="Models">
+          <Folder Name="Base" TargetFolderName="Base">
+            <ProjectItem ReplaceParameters="true" TargetFileName="IHasIdBase.cs">IHasIdBase.cs</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="Services" TargetFolderName="Services">
+          <Folder Name="Base" TargetFolderName="Base">
+            <ProjectItem ReplaceParameters="true" TargetFileName="IServiceBase.cs">IServiceBase.cs</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <Folder Name="Base" TargetFolderName="Base">
+          <ProjectItem ReplaceParameters="true" TargetFileName="HasIdBase.cs">HasIdBase.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <Folder Name="Base" TargetFolderName="Base">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseService.cs">BaseService.cs</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
