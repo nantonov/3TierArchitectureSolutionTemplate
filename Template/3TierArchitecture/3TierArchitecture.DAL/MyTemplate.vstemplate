@@ -1,0 +1,47 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>3TierArchitecture.DAL</Name>
+    <Description>Data Access Layer</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>3TierArchitecture.DAL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="3TierArchitecture.DAL.csproj" File="3TierArchitecture.DAL.csproj" ReplaceParameters="true">
+      <Folder Name="DI" TargetFolderName="DI">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Entities" TargetFolderName="Entities">
+        <Folder Name="Base" TargetFolderName="Base">
+          <ProjectItem ReplaceParameters="true" TargetFileName="HasIdBaseEntity.cs">HasIdBaseEntity.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <Folder Name="Entities" TargetFolderName="Entities">
+          <Folder Name="Base" TargetFolderName="Base">
+            <ProjectItem ReplaceParameters="true" TargetFileName="IHasIdBaseEntity.cs">IHasIdBaseEntity.cs</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="Repositories" TargetFolderName="Repositories">
+          <Folder Name="Base" TargetFolderName="Base">
+            <ProjectItem ReplaceParameters="true" TargetFileName="IGenericRepository.cs">IGenericRepository.cs</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Repositories" TargetFolderName="Repositories">
+        <Folder Name="Base" TargetFolderName="Base">
+          <ProjectItem ReplaceParameters="true" TargetFileName="GenericRepository.cs">GenericRepository.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationDbContext.cs">ApplicationDbContext.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
