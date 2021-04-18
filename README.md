@@ -3,7 +3,13 @@
 [![Build and Test](https://github.com/nantonov/3TierArchitectureSolutionTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/nantonov/3TierArchitectureSolutionTemplate/actions/workflows/build.yml)
 
 ### Template source code
-The source code of the template can be found in the [src](src) folder.
+The source code of the template can be found in the [src](src) directory.
 
-### Visual Studio 2019 Template
-The unpacked template can be found in the [Template](Template) folder.
+### Visual Studio Template
+The unpacked template can be found in the [Template](Template) directory.
+
+1. Clone or download the repository.
+2. Go to [Template](Template) directory.
+3. Select [3TierArchitecture](Template/3TierArchitecture) directory, and from the right-click or context menu, choose `Send to > Compressed (zipped) folder`.
+4. Copy the .zip file into the user project template directory. By default, this directory is `%USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates`.
+5. In Visual Studio, choose `File > New > Project` and verify that the `3TierArchitecture` template appears.
