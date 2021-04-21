@@ -13,3 +13,7 @@ The unpacked template can be found in the [Template](Template) directory.
 3. Select [3TierArchitecture](Template/3TierArchitecture) directory, and from the right-click or context menu, choose `Send to > Compressed (zipped) folder`.
 4. Copy the .zip file into the user project template directory. By default, this directory is `%USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates`.
 5. In Visual Studio, choose `File > New > Project` and verify that the `3TierArchitecture` template appears.
+
+
+## Releases
+Release v0.1.0 - Base implementation with 3 layers (API, BLL, DAL)
