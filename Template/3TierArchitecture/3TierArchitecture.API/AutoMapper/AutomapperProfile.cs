@@ -1,5 +1,5 @@
 ﻿using $safeprojectname$.ViewModels.Base;
-using _3TierArchitecture.BLL.Models.Base;
+using $ext_safeprojectname$.BLL.Models.Base;
 using AutoMapper;
 
 namespace $safeprojectname$.AutoMapper

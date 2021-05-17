@@ -1,4 +1,4 @@
-﻿using _3TierArchitecture.DAL.DI;
+﻿using $ext_safeprojectname$.DAL.DI;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 

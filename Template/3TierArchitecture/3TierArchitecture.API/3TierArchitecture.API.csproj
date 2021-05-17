@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3TierArchitecture.BLL\3TierArchitecture.BLL.csproj" />
+    <ProjectReference Include="..\$ext_safeprojectname$.BLL\$ext_safeprojectname$.BLL.csproj" />
   </ItemGroup>
 
   <ItemGroup>

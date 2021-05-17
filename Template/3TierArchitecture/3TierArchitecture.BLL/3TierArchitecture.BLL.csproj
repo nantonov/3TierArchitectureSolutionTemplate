@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3TierArchitecture.DAL\3TierArchitecture.DAL.csproj" />
+    <ProjectReference Include="..\$ext_safeprojectname$.DAL\$ext_safeprojectname$.DAL.csproj" />
   </ItemGroup>
 
 </Project>

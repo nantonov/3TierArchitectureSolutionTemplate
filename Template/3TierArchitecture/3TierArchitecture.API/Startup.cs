@@ -1,5 +1,5 @@
 using $safeprojectname$.AutoMapper;
-using _3TierArchitecture.BLL.DI;
+using $ext_safeprojectname$.BLL.DI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

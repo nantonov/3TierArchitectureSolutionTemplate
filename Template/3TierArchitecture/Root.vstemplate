@@ -16,13 +16,13 @@
   </TemplateData>
   <TemplateContent>
 	<ProjectCollection>
-		<ProjectTemplateLink ProjectName="$projectname$.API">
+		<ProjectTemplateLink ProjectName="$safeprojectname$.API" CopyParameters="true">
 			3TierArchitecture.API\MyTemplate.vstemplate
 		</ProjectTemplateLink>
-		<ProjectTemplateLink ProjectName="$projectname$.BLL">
+		<ProjectTemplateLink ProjectName="$safeprojectname$.BLL" CopyParameters="true">
 			3TierArchitecture.BLL\MyTemplate.vstemplate
 		</ProjectTemplateLink>
-		<ProjectTemplateLink ProjectName="$projectname$.DAL">
+		<ProjectTemplateLink ProjectName="$safeprojectname$.DAL" CopyParameters="true">
 			3TierArchitecture.DAL\MyTemplate.vstemplate
 		</ProjectTemplateLink>
 	</ProjectCollection>

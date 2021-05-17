@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using $safeprojectname$.Interfaces.Services.Base;
 using $safeprojectname$.Models.Base;
-using _3TierArchitecture.DAL.Entities.Base;
-using _3TierArchitecture.DAL.Interfaces.Repositories.Base;
+using $ext_safeprojectname$.DAL.Entities.Base;
+using $ext_safeprojectname$.DAL.Interfaces.Repositories.Base;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
