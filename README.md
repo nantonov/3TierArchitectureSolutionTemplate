@@ -16,4 +16,6 @@ The unpacked template can be found in the [Template](Template) directory.
 
 
 ## Releases
+Release v0.1.1 - New stable version. References into projects were fixed.
 Release v0.1.0 - Base implementation with 3 layers (API, BLL, DAL)
+
